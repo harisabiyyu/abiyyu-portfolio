@@ -69,7 +69,7 @@ export default function FeaturedWork() {
             <div className="relative">
               <div className="relative aspect-[16/10] w-full overflow-hidden rounded-2xl border border-white/10 bg-ink-800 transition-all duration-500 ease-out group-hover:scale-[1.02] group-hover:border-white/20">
                 <img
-                  src="/images/garudataekwondo.png"
+                  src={`${import.meta.env.BASE_URL}images/garudataekwondo.png`}
                   alt="Garuda Taekwondo Club website preview"
                   className="h-full w-full object-cover object-top"
                   loading="lazy"

@@ -96,7 +96,7 @@ export default function Hero() {
             <div className="relative animate-float rounded-[2rem] p-0.5 bg-gradient-to-b from-white/15 via-white/5 to-white/10 shadow-2xl shadow-black/50 transition-transform duration-500 ease-out group-hover:scale-[1.02]">
               <div className="overflow-hidden rounded-[1.9rem] bg-ink-900 ring-1 ring-white/10">
                 <img
-                  src="/images/portfolio.jpeg"
+                  src={`${import.meta.env.BASE_URL}images/portfolio.jpeg`}
                   alt="Haris Abiyyu"
                   className="h-[21rem] w-[17.5rem] object-cover object-[center_16%] sm:h-[25rem] sm:w-[20.5rem]"
                   width="640"

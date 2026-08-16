@@ -28,7 +28,7 @@ export default function SelectedProjects() {
             {/* Preview image */}
             <div className="relative mb-6 aspect-[16/9] w-full overflow-hidden rounded-xl border border-white/10 bg-ink-800 transition-all duration-500 ease-out group-hover:scale-[1.02] group-hover:border-white/20">
               <img
-                src="/images/tasknest.png"
+                src={`${import.meta.env.BASE_URL}images/tasknest.png`}
                 alt="TaskNest project preview"
                 className="h-full w-full object-cover object-top"
                 loading="lazy"
