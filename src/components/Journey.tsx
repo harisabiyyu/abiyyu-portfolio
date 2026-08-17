@@ -2,22 +2,22 @@ const steps = [
   {
     year: '2026',
     title: 'Started D3 Information Systems at Telkom University',
-    body: 'Began university studies in Information Systems at Telkom University.',
+    body: 'Began academic studies in Information Systems, gaining foundations in systems analysis, requirements gathering, and software fundamentals.',
   },
   {
     year: '2026',
-    title: 'Built TaskNest',
-    body: 'Created a task management web application while learning frontend development, JavaScript, and LocalStorage.',
+    title: 'Built TaskNest Web App',
+    body: 'Engineered an interactive task management application using vanilla JavaScript to master DOM manipulation, search/filtering, and LocalStorage state persistence.',
   },
   {
     year: '2026',
-    title: 'Completed Garuda Taekwondo Club',
-    body: 'Built a real-world website for a Taekwondo club with practical features for its daily activities.',
+    title: 'Developed Garuda Taekwondo Club Website',
+    body: 'Built and deployed a real-world, mobile-first website for a Taekwondo club to present training schedules, programs, achievements, and member registration.',
   },
   {
     year: 'Present',
-    title: 'Continuously Learning & Building',
-    body: 'Continuously improving web development and information systems skills through practical projects.',
+    title: 'Seeking Internship Opportunities',
+    body: 'Actively exploring web development internship roles to learn from experienced developers, contribute to real-world products, and continue growing.',
   },
 ];
 

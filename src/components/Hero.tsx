@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen items-center overflow-hidden px-6 pt-28 pb-16 md:pt-24"
+      className="relative flex min-h-screen items-center overflow-hidden px-6 pt-36 pb-20 sm:pt-40 md:pt-44 lg:pt-48 md:pb-24"
     >
       {/* Ambient background depth */}
       <div
@@ -43,7 +43,7 @@ export default function Hero() {
             className="mt-6 text-xl font-semibold text-white/90 animate-fade-up sm:text-2xl"
             style={{ animationDelay: '0.28s' }}
           >
-            D3 Information Systems Student
+            Information Systems Student
             <span className="text-accent-400"> & </span>
             Web Developer
           </p>
@@ -52,38 +52,69 @@ export default function Hero() {
             className="mt-5 max-w-xl text-base leading-relaxed text-gray-400 animate-fade-up sm:text-lg"
             style={{ animationDelay: '0.38s' }}
           >
-            “I build practical digital experiences while continuously learning
-            and exploring web development.”
+            Turning real-world requirements into clean, responsive, and usable
+            websites. Actively seeking web development internship opportunities
+            to learn, build, and contribute.
           </p>
 
+          {/* Mobile Profile Photo (Compact & Balanced 176px, placed after intro and before CTAs) */}
           <div
-            className="mt-9 flex flex-wrap items-center gap-4 animate-fade-up"
+            className="my-7 flex w-full justify-center lg:hidden animate-fade-up"
+            style={{ animationDelay: '0.42s' }}
+          >
+            <div className="group relative">
+              <div
+                aria-hidden
+                className="absolute -inset-1 rounded-[1.75rem] bg-gradient-to-tr from-accent-600/25 via-accent-500/15 to-transparent blur-xl opacity-75"
+              />
+              <div className="relative rounded-[1.5rem] p-0.5 bg-gradient-to-b from-white/15 via-white/5 to-white/10 shadow-xl shadow-black/40">
+                <div className="overflow-hidden rounded-[1.4rem] bg-ink-900 ring-1 ring-white/10">
+                  <img
+                    src={`${import.meta.env.BASE_URL}images/portfolio.jpeg`}
+                    alt="Haris Abiyyu"
+                    className="h-[13.5rem] w-[11rem] object-cover object-[center_16%]"
+                    width="640"
+                    height="780"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            className="mt-2 flex flex-wrap items-center gap-3.5 animate-fade-up lg:mt-9"
             style={{ animationDelay: '0.48s' }}
           >
             <a
               href="#projects"
-              className="group inline-flex items-center gap-2 rounded-xl bg-accent-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-accent-600/25 transition-all duration-300 ease-out hover:-translate-y-[3px] hover:bg-accent-400 hover:brightness-105 hover:shadow-[0_0_24px_rgba(91,108,255,0.35)] active:translate-y-0"
+              className="group inline-flex items-center gap-2.5 rounded-xl bg-accent-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-accent-600/25 transition-all duration-300 ease-out hover:-translate-y-[3px] hover:bg-accent-400 hover:brightness-105 hover:shadow-[0_0_24px_rgba(91,108,255,0.35)] active:translate-y-0"
             >
-              Explore My Work
+              View My Projects
               <ArrowDown
                 size={16}
                 className="transition-transform duration-300 group-hover:translate-y-0.5"
               />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/harisabiyyu"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/[0.03] px-6 py-3 text-sm font-semibold text-gray-200 backdrop-blur-sm transition-all duration-300 ease-out hover:-translate-y-[3px] hover:border-white/25 hover:bg-white/[0.07] hover:text-white hover:shadow-[0_0_20px_rgba(255,255,255,0.05)] active:translate-y-0"
+              className="inline-flex items-center gap-2.5 rounded-xl border border-white/10 bg-white/[0.03] px-6 py-3 text-sm font-semibold text-gray-200 backdrop-blur-sm transition-all duration-300 ease-out hover:-translate-y-[3px] hover:border-white/25 hover:bg-white/[0.07] hover:text-white hover:shadow-[0_0_20px_rgba(255,255,255,0.05)] active:translate-y-0"
             >
               <Github size={16} />
               GitHub
             </a>
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-2.5 rounded-xl border border-white/10 bg-white/[0.03] px-6 py-3 text-sm font-semibold text-gray-200 backdrop-blur-sm transition-all duration-300 ease-out hover:-translate-y-[3px] hover:border-white/25 hover:bg-white/[0.07] hover:text-white hover:shadow-[0_0_20px_rgba(255,255,255,0.05)] active:translate-y-0"
+            >
+              Contact Me
+            </a>
           </div>
         </div>
 
-        {/* Photo presentation */}
-        <div className="flex justify-center lg:justify-end">
+        {/* Desktop Photo presentation */}
+        <div className="hidden justify-center lg:flex lg:justify-end">
           <div
             className="group relative animate-fade-slide-right"
             style={{ animationDelay: '0.2s' }}
