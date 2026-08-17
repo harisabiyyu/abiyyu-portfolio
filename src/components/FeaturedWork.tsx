@@ -160,7 +160,7 @@ export default function FeaturedWork() {
                   />
                 </a>
                 <a
-                  href="https://github.com/harisabiyyu/Garuda-Taekwondo-Club"
+                  href="https://github.com/IshikawaUta/taekwondo_garuda_club"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2.5 rounded-xl border border-white/10 bg-white/[0.03] px-6 py-3 text-sm font-semibold text-gray-200 backdrop-blur-sm transition-all duration-300 ease-out hover:-translate-y-[2px] hover:border-white/25 hover:bg-white/[0.07] hover:text-white active:translate-y-0"
